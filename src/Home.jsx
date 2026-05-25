@@ -1,7 +1,7 @@
 //Naming convention : component will be always in capital letter...
 
 import React, { useEffect, useState } from 'react'
-import Create from './create.jsx'
+import Create from './Create.jsx'
 import axios from 'axios'
 import { BsCheckCircleFill, BsCircleFill, BsFillCheckCircleFill, BsFillTrashFill } from 'react-icons/bs'
 
