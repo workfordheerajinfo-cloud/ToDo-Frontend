@@ -26,7 +26,7 @@ function Create({ refreshTodos }) { //create is a child component and received r
 
   async function handleReset(){
     try{
-     await axios.delete("http://localhost:3001/deleteAll")
+     await axios.delete("https://todo-backened-4.onrender.com/deleteAll")
 
      setTask("");
      refreshTodos();
